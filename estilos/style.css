@@ -186,7 +186,7 @@ article h2{
 }
 
 #formacao-container .curso{
-  background-color: var(--fundo-principal-);
+  background-color: var(--fundo-principal);
   border-radius: 8px;
   border-left: 5px solid var(--destaque-inverso);
   padding-left: 15px;
