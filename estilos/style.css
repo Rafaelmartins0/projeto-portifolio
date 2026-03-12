@@ -91,7 +91,7 @@ main {
   aspect-ratio: 1/1; /* tamanho da imagem*/
   object-fit: cover; /* nao deixa a imagem distorcida*/
   border-radius: 50%;
-  border: 5px solid var(--fundo-card);
+  border: 5px solid var(--fundo-principal);
   outline: 5px solid var(--destaque);
   display: block;
   margin: auto;
@@ -237,6 +237,22 @@ article h2{
   border-radius: 8px;
   border-left: 5px solid var(--destaque-inverso);
   transition: border-width .3s, border-color.3s;
+}
+
+.descricao  a{
+  display: inline-block;
+  font-size: 0.7em;
+  text-decoration: none;
+  color: var(--texto);
+  background-image: linear-gradient(to right, #66bbff, #0077ff);
+  box-shadow: 1px 1px 12px rgba(0, 119, 255, 0.533);
+  padding: 4px 8px ;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+.descricao a:hover{
+  background-image: linear-gradient(to right, #0077ff, #66bbff);
 }
 
 #projeto-container .projeto:hover{
